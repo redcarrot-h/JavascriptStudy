@@ -23,7 +23,7 @@ ex) const PI=3.14; const SPEED_LIMIT=50; const BIRTH_DAY='2020-01-01';
 자바스크립트에서 변수를 선언할때는, 변하지 않는 값은 const, 변할 수 있는 값은 let으로 선언하세요.  
 tip) 모든 변수를 const로 선언 후에 변경이 필요한 것을 let으로 바꾸면 됨.
 
-첫째, 변수는 문자와 숫자, $와 _만 사용 ex)const MY_HOME="..."; let_=1; let$=3;  
+첫째, 변수는 문자와 숫자, $와 __만 사용 ex)const MY_HOME="..."; let_=1; let$=3;  
 둘째, 첫글자는 숫자가 될 수 없습니다. ex) let 1stGrade = 'A+';(불가)    
 셋째, 예약어는 사용할 수 없습니다. ex) let let = 99;(불가).  
 넷째, 가급적 상수는 대문자로 알려주세요. ex) const MAX_SIZE = 99;   
@@ -119,5 +119,5 @@ console.log(typeof undefined);
 ```
 
 ### typeof
-typeof null; // object 객체형 
+typeof null; // object 객체형    
 null != 객체가 아닙니다. 

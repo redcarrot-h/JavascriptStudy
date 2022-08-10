@@ -1,8 +1,8 @@
 # 3. 대화상자
 
-alert 알려줌
-prompt 입력 받음
-confirm 확인 받음
+alert 알려줌.  
+prompt 입력 받음.  
+confirm 확인 받음   
 
 ## alert() 
 알람창 띄우는 함수, 메시지를 보여줌, 확인버튼을 누르면 없어짐
@@ -52,7 +52,7 @@ Number() -> 숫자형으로 변환
 Boolean() -> 불린형으로 변환
 
 ## 형변환이 필요한 이유 
-prompt 입력하면 문자형으로 입력됨
+prompt 입력하면 문자형으로 입력됨.  
 숫자형이 아니더라도 나누기 같은 표현식은 자동으로 변환되어 계산을 함   
 ex) "90" + "80" = "9080" /2 = 4540  
 "6" / "2" = 3 (자동 형변환)  
@@ -108,14 +108,14 @@ Boolean(0),
 
 ## 정리
 String() -> 문자형으로 변환  
-Number() -> 숫자형으로 변환, Number("문자") // NaN으로 반환된다는 것을 염두해야 함
+Number() -> 숫자형으로 변환, Number("문자") // NaN으로 반환된다는 것을 염두해야 함.  
 Boolean() -> 불린형으로 변환, 0, ", null, undefined, NaN -> false가 됨
 
 ## 주의사항
-그냥 외우기
-Number(null) // 0
-Number(undefined) // NaN 
-Boolean(0) // false
-Boolean('0') // true
-Boolean('') //false
+그냥 외우기.  
+Number(null) // 0.  
+Number(undefined) // NaN     
+Boolean(0) // false.  
+Boolean('0') // true.  
+Boolean('') //false.  
 Boolean(' ') //true, 공백이 있는 것
