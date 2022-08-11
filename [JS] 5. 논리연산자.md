@@ -13,7 +13,7 @@ ex) 스티브 잡스는 한국인 이거나 OR, 남자이다. -true
 - AND는 첫번째 false를 발견하는 즉시 평가를 멈춤
 
 - 운전면허가 있고(전체 군인의 80%) 시력이 좋은(전체 군인의 60%) 여군(전체 군인의 7%)  
--> 여군인데 시력이 좋고 운전면허가 있는 사람
+-> 여군인데 시력이 좋고 운전면허가 있는 사람으로 코드를 짜면 좀 더 효율적이다.
 
 ## ||(OR)
 a || b // a나 b 중 true가 있으면 true
@@ -34,7 +34,7 @@ if(name === 'Tom' || age > 19){
 a && b // a와 b 둘 다 true 이면 true
 ``` js
 // AND
-// 이름이 Mike 이거나, 성인이면 통과
+// 이름이 Mike이면서 성인이면 통과
 
 const name = "TOM";
 const age = 30;
@@ -44,7 +44,7 @@ if(name === 'Mike' && age > 19){
 } else {
   console.log('돌아가.')
 }
-// 마이크가 아니고 성인이기때문에 돌아가로 뜸
+// 마이크가 아니고 성인이기 때문에 돌아가로 뜸
 ```
 
 
@@ -94,13 +94,12 @@ const gender = 'M';
 const name = 'Jame';
 const isAdult = true;
 
-//if(gender === 'M' && name === 'Mike' || isAdult){ 이구문은 아래 구문과 동일함
 if(gender === 'M' && (name === 'Mike'|| isAdult)){
   console.log('통과')
 } else{
   console.log('돌아가.')
 }
-// 우선순위 && > || 
+// 통과로 출력 
 ```
 
 

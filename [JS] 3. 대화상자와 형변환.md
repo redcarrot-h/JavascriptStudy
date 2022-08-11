@@ -113,7 +113,7 @@ Boolean() -> 불린형으로 변환, 0, ", null, undefined, NaN -> false가 됨
 
 ## 주의사항
 그냥 외우기.  
-Number(null) // 0.  
+Number(null) // 0  
 Number(undefined) // NaN     
 Boolean(0) // false.  
 Boolean('0') // true.  
