@@ -25,7 +25,7 @@ tip) 모든 변수를 const로 선언 후에 변경이 필요한 것을 let으�
 
 첫째, 변수는 문자와 숫자, $와 __만 사용 ex)const MY_HOME="..."; let_=1; let$=3;  
 둘째, 첫글자는 숫자가 될 수 없습니다. ex) let 1stGrade = 'A+';(불가)    
-셋째, 예약어는 사용할 수 없습니다. ex) let let = 99;(불가).  
+셋째, 예약어는 사용할 수 없습니다. ex) let let = 99;(불가)  
 넷째, 가급적 상수는 대문자로 알려주세요. ex) const MAX_SIZE = 99;   
 다섯째, 변수명은 읽기 쉽고 이해할 수 있게 선언. ex) let a = 1;(불가), let userNumber = 3; (가능)
 
