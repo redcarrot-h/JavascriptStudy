@@ -5,7 +5,7 @@
 
 - ! (NOT) : true면 false false면 true
 
-ex) 스티브 잡스는 한국인 이거나 OR, 남자이다. -true
+ex) 스티브 잡스는 한국인 이거나 OR, 남자이다. -true.  
 스티브 잡스는 한국인 이고 AND, 남자이다. - false
 
 ## 평가

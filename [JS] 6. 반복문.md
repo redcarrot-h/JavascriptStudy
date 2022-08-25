@@ -21,6 +21,7 @@ for(let i = 0; i < 10; i++){
 ```
 
 ## while
+초기값은 따로 적어줘야 함
 ```js
 let i =0;
 while(i<10){

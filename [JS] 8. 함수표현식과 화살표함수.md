@@ -35,10 +35,10 @@ let add =(num1, num2) => {
 }
 
 코드본문이 한줄이고 return문이 있으면 아래와 같이 일반괄호로 변경 가능
-let add = (num1 + num2) => (num1 + num2;)
+let add = (num1, num2) => (num1 + num2;)
 
 return문이 한줄이라면 아래와 같이 생략 가능
-let add = (num1 + num2) => num1 + num2;
+let add = (num1, num2) => num1 + num2;
 
 인수가 딱 하나라면 () 괄호를 아래와 같이 쓸 수 있음
 let sayHelllo = name => `Hello, ${name}`;

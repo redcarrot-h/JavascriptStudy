@@ -1,6 +1,6 @@
 # 객체(Object)
 
-객체는 중괄호로 구성하고 키(key)와 값(value)로 구성된 프로퍼티(property 정보)가 들어갑니다.
+객체는 중괄호로 구성하고 키(key)와 값(value)로 구성된 프로퍼티(property 정보)가 들어갑니다.   
 각 프로퍼티는 쉼표로 구분합니다. 마지막 쉼표는 없어도 되지만 수정 삭제 시 용이하기 때문에 있는 것이 나음 
 
 ``` js
@@ -18,10 +18,10 @@ superman.name //'clark'
 superman['age'] //33
 ```
 
-2. 객체에 추가를 할떄도 점 또는 대괄호를 사용할 수 있다.
+2. 객체에 추가를 할때도 점 또는 대괄호를 사용할 수 있다.
 ``` js
 superman.gender = 'male';
-superman['hairColor'] = 'balck';
+superman['hairColor'] = 'black';
 ```
 
 3. 객체를 삭제할때는 삭제하고픈 프로퍼티 앞에 delete 키워드를 사용하면 됨
