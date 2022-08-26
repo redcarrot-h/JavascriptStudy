@@ -79,7 +79,7 @@ function sayHello(name){
 
 sayHello('Mike');
 console.log('함수 호출 후')
-console.log(msg)
+console.log(msg) // "Hello Mike"
 ```
 
 ```js
