@@ -15,7 +15,7 @@ function sayHello(){
 * 인터프리터 언어(Interpreted language) : 순차적으로 실행하고 즉시 결과를 반환하는 프로그래밍 언어를 인터프리터 언어라고 함 Ex)js
 
 ```js
-let sayHelo = function(){ 생성 
+let sayHello = function(){ 생성 
 	console.log('Hello'); 사용가능
 }
 sayHello();
