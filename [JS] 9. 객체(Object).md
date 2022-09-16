@@ -203,7 +203,7 @@ const Mike = {
   age: 30
 };
 
-for(x in Mike){
+for(let x in Mike){
   console.log(Mike[x]) // Mike['age']
 }
 // "Mike", 30값이 출력됨
